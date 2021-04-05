@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav>
+            <h2>Etch-a-Sketch</h2>
+        </nav>
+        <main>
+            <div id="grid">
+                <div class="square"></div>
+            </div>
+            <div>
+                <input type="range" min="16" max="64" 
+                value="16" id="slider" id="myRange">
+            </div>
+            <div id="options">
+                <div id="random">
+                    <button id="random-btn">Random</button>
+                </div>
+                <div id="range-value">
+                    <p id='range-value-text'>16</p>
+                    <button id="simple-btn">Simple</button>
+                </div>
+                <div id="gradient">
+                    <button id="gradient-btn">Gradient</button>
+                </div>
+            </div>
+        </main>
+    </body>
+    <script src="grid.js"></script>
+</html>
